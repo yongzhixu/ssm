@@ -9,9 +9,11 @@
         <module name="modules" />
         <module name="restapi" />
         <module name="odo" />
+        <module name="doc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="doc" target="1.5" />
       <module name="modules" target="1.8" />
       <module name="odo" target="1.8" />
       <module name="restapi" target="8" />
